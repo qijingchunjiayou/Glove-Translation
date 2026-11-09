@@ -19,6 +19,7 @@
 # Build artifacts and directories
 **/build/
 build/
+**/build_*/
 *.o
 *.a
 *.out
@@ -76,3 +77,9 @@ Desktop.ini
 *.workspace # General workspace files, can be from various tools
 *.suo       # Visual Studio Solution User Options
 *.sln.docstates # Visual Studio
+
+# Local Wi-Fi credentials (contains the hotspot password)
+main/wifi_credentials.h
+
+# Local temporary files and downloaded dependencies
+/tmp/

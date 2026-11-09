@@ -25,7 +25,26 @@
   "idf.port": "COM13",
   "idf.currentSetup": "E:\\Esp32\\Espressif\\frameworks\\esp-idf-v5.5.2",
   "idf.customExtraVars": {
+    "IDF_PATH": "E:\\Esp32\\Espressif\\frameworks\\esp-idf-v5.5.2",
+    "IDF_TOOLS_PATH": "E:\\Esp32\\Espressif",
+    "IDF_PYTHON_ENV_PATH": "E:\\Esp32\\Espressif\\python_env\\idf5.5_py3.11_env",
     "IDF_TARGET": "esp32s3"
   },
+  "terminal.integrated.profiles.windows": {
+    "ESP-IDF 5.5.2": {
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-NoExit",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "E:\\Esp32\\Espressif\\Initialize-Idf.ps1",
+        "-IdfId",
+        "esp-idf-v5.5.2"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "ESP-IDF 5.5.2",
   "idf.flashType": "UART"
 }
